@@ -4,22 +4,43 @@
     <title>sprint2-tech blog) </title>
     <meta charset="UTF-8">
     <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    
   </head>
   
   <body>
     <h1>Sprint 2 Tech Blog</h1>
-    <h2>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em> (Optional SUB title) </h2>
-    <h3>10 November 2010</h3>
+    <h2>What are the best practices associated with using classes vs. ids? <em> </em> </h2>
     
-    <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
-    </p>
-    <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
-    </p>
-    <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
-    </p>
+    
+    
+        <h3>Classes</h3>
+            <p>Classes are for when you want to apply this to multiple elements.
+            .bold, .italic, .aligncenter, .floatleft are examples of good uses for classes, because you're going to (potentially) want to make multiple items on your page bold, italic, center aligned or floated to the left.
+
+            <p>example: .floatleft {/p>
+                    float: left;
+                    } </p>          
+            <p>So for the example above, that'd obviously float the element to the left, and all you'd need to do is give the element that class:</p>
+
+            <p>example: p class="floatleft">I'm floated left</p>
+            <p>example: div class="floatleft">Me too</div></p>
+        
+        <h3>ID's</h3>
+            <p>ID's should be used differently. A good way to explain this is to think about the structure of your webpage. Let's take your header. You are only going to have one header on your page, you're not going to go around telling different elements that they are a header, because there's only one header! Here you use ID.</p>
+
+            <p>#header {
+            width: 100%;
+            height: 75px;
+            background-color: black;
+            }
+            </p>
+
+            <p>Then, in your HTML:
+
+                <div> example:  div id="header">Header content (close div) </div>
+                <div> example:  div id="anotherPageSection" class="floatleft">Content here (close div)</div>
+                <div> example:  div id="footer">Footer here (close div)</div>
+            </p>
     
     <!-- this is a comment. -->
   

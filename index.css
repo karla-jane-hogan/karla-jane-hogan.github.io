@@ -1,0 +1,52 @@
+body {
+
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20pt;
+}
+
+.header {
+    background-color: #f2f2f2;;
+    padding: 20px;
+    text-align: center;
+  }
+
+.div {text-align: center
+}
+ 
+  .topnav {
+    overflow: hidden;
+    background-color: purple;
+    text-align: center;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #f2f2f2;
+    color: purple;
+  
+  }
+
+
+    h1 {font-size: 30pt; text-align: center;}
+
+    h2 {text-align: left; font-size: 25pt;}
+
+    h3 {text-align: center;}
+
+    p {text-align: center;}
+   
+
+
+
+
+    
